@@ -6,6 +6,7 @@ import Blog from '../Pages/Blog/Blog';
 import ErrorPage from '../Pages/SharedPage/ErrorPage/ErrorPage';
 import Services from '../Pages/Services/Services';
 import Login from '../Pages/Login/Login';
+import Registration from '../Pages/Registration/Registration';
 
 export const routes = createBrowserRouter([
     {
@@ -32,6 +33,10 @@ export const routes = createBrowserRouter([
             {
                 path: '/login',
                 element: <Login></Login>
+            },
+            {
+                path: '/register',
+                element: <Registration></Registration>
             },
 
 
