@@ -7,6 +7,7 @@ import ErrorPage from '../Pages/SharedPage/ErrorPage/ErrorPage';
 import Services from '../Pages/Services/Services';
 import Login from '../Pages/Login/Login';
 import Registration from '../Pages/Registration/Registration';
+import Contact from '../Pages/Contact/Contact';
 
 export const routes = createBrowserRouter([
     {
@@ -37,6 +38,10 @@ export const routes = createBrowserRouter([
             {
                 path: '/register',
                 element: <Registration></Registration>
+            },
+            {
+                path: '/contact',
+                element: <Contact></Contact>
             },
 
 
