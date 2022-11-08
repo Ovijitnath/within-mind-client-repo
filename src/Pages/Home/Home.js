@@ -1,18 +1,125 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 
 const Home = () => {
     return (
         <div>
+
+            <section>
+
+                <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+                    <div className="grid gap-10 lg:grid-cols-2">
+                        <div className="flex flex-col justify-center md:pr-8 xl:pr-0 lg:max-w-lg">
+                            <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-teal-accent-400">
+                                <svg className="text-teal-900 w-7 h-7" viewBox="0 0 24 24">
+                                    <polyline
+                                        fill="none"
+                                        stroke="currentColor"
+                                        strokeWidth="2"
+                                        strokeLinecap="round"
+                                        strokeMiterlimit="10"
+                                        points=" 8,5 8,1 16,1 16,5"
+                                        strokeLinejoin="round"
+                                    />
+                                    <polyline
+                                        fill="none"
+                                        stroke="currentColor"
+                                        strokeWidth="2"
+                                        strokeLinecap="round"
+                                        strokeMiterlimit="10"
+                                        points="9,15 1,15 1,5 23,5 23,15 15,15"
+                                        strokeLinejoin="round"
+                                    />
+                                    <polyline
+                                        fill="none"
+                                        stroke="currentColor"
+                                        strokeWidth="2"
+                                        strokeLinecap="round"
+                                        strokeMiterlimit="10"
+                                        points="22,18 22,23 2,23 2,18"
+                                        strokeLinejoin="round"
+                                    />
+                                    <rect
+                                        x="9"
+                                        y="13"
+                                        fill="none"
+                                        stroke="currentColor"
+                                        strokeWidth="2"
+                                        strokeLinecap="round"
+                                        strokeMiterlimit="10"
+                                        width="6"
+                                        height="4"
+                                        strokeLinejoin="round"
+                                    />
+                                </svg>
+                            </div>
+                            <div className="max-w-xl mb-6">
+                                <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
+                                    Let me help
+                                    <br className="hidden md:block" />
+                                    you to create{' '}
+                                    <span className="inline-block text-deep-purple-accent-400">
+                                        peace within mind!
+                                    </span>
+                                </h2>
+                                <p className="text-base text-gray-700 md:text-lg">
+
+                                    Positive behavioral supports is a behavior management system used to understand what maintains an individual’s challenging behavior. People’s inappropriate behaviors are difficult to change because they are functional.
+                                </p>
+                            </div>
+                            <div>
+                                {/* <Link
+                                    to="/"
+                                    aria-label=""
+                                    className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
+                                >
+                                    Learn more
+                                    <svg
+                                        className="inline-block w-3 ml-2"
+                                        fill="currentColor"
+                                        viewBox="0 0 12 12"
+                                    >
+                                        <path d="M9.707,5.293l-5-5A1,1,0,0,0,3.293,1.707L7.586,6,3.293,10.293a1,1,0,1,0,1.414,1.414l5-5A1,1,0,0,0,9.707,5.293Z" />
+                                    </svg>
+                                </Link> */}
+                            </div>
+                        </div>
+                        <div className="flex items-center justify-center -mx-4 lg:pl-8">
+                            <div className="flex flex-col items-end px-3">
+                                <img
+                                    className="object-cover mb-6 rounded shadow-lg h-28 sm:h-48 xl:h-56 w-28 sm:w-48 xl:w-56"
+                                    src="https://images.pexels.com/photos/3184287/pexels-photo-3184287.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
+                                    alt=""
+                                />
+                                <img
+                                    className="object-cover w-20 h-20 rounded shadow-lg sm:h-32 xl:h-40 sm:w-32 xl:w-40"
+                                    src="https://images.pexels.com/photos/3182812/pexels-photo-3182812.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
+                                    alt=""
+                                />
+                            </div>
+                            <div className="px-3">
+                                <img
+                                    className="object-cover w-40 h-40 rounded shadow-lg sm:h-64 xl:h-80 sm:w-64 xl:w-80"
+                                    src="https://images.pexels.com/photos/3182739/pexels-photo-3182739.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;w=500"
+                                    alt=""
+                                />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
             <section className="dark:bg-gray-800 dark:text-gray-100">
                 <div className="container max-w-xl p-6 py-12 mx-auto space-y-24 lg:px-8 lg:max-w-7xl">
                     <div>
-                        <h2 className="text-3xl font-bold tracking-tight text-center sm:text-5xl dark:text-gray-50">Aliquip definiebas ad est</h2>
-                        <p className="max-w-3xl mx-auto mt-4 text-xl text-center dark:text-gray-400">Quando cetero his ne, eum admodum sapientem ut.</p>
+                        <h2 className="text-3xl font-bold tracking-tight text-center sm:text-5xl dark:text-gray-50">For Whom I Сan Be Helpful</h2>
+                        <p className="max-w-3xl mx-auto mt-4 text-xl text-center dark:text-gray-400">FOLLOWING SERVICES.</p>
                     </div>
                     <div className="grid lg:gap-8 lg:grid-cols-2 lg:items-center">
                         <div>
-                            <h3 className="text-2xl font-bold tracking-tight sm:text-3xl dark:text-gray-50">Ad vix debet docendi</h3>
+                            <h3 className="text-2xl font-bold tracking-tight sm:text-3xl dark:text-gray-50">For Women</h3>
                             <p className="mt-3 text-lg dark:text-gray-400">Ne dicta praesent ocurreret has, diam theophrastus at pro. Eos etiam regione ut, persius eripuit quo id. Sit te euismod tacimates.</p>
                             <div className="mt-12 space-y-12">
                                 <div className="flex">
@@ -114,111 +221,7 @@ const Home = () => {
                     </div>
                 </div>
             </section>
-            <section>
 
-                <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
-                    <div className="grid gap-10 lg:grid-cols-2">
-                        <div className="flex flex-col justify-center md:pr-8 xl:pr-0 lg:max-w-lg">
-                            <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-teal-accent-400">
-                                <svg className="text-teal-900 w-7 h-7" viewBox="0 0 24 24">
-                                    <polyline
-                                        fill="none"
-                                        stroke="currentColor"
-                                        strokeWidth="2"
-                                        strokeLinecap="round"
-                                        strokeMiterlimit="10"
-                                        points=" 8,5 8,1 16,1 16,5"
-                                        strokeLinejoin="round"
-                                    />
-                                    <polyline
-                                        fill="none"
-                                        stroke="currentColor"
-                                        strokeWidth="2"
-                                        strokeLinecap="round"
-                                        strokeMiterlimit="10"
-                                        points="9,15 1,15 1,5 23,5 23,15 15,15"
-                                        strokeLinejoin="round"
-                                    />
-                                    <polyline
-                                        fill="none"
-                                        stroke="currentColor"
-                                        strokeWidth="2"
-                                        strokeLinecap="round"
-                                        strokeMiterlimit="10"
-                                        points="22,18 22,23 2,23 2,18"
-                                        strokeLinejoin="round"
-                                    />
-                                    <rect
-                                        x="9"
-                                        y="13"
-                                        fill="none"
-                                        stroke="currentColor"
-                                        strokeWidth="2"
-                                        strokeLinecap="round"
-                                        strokeMiterlimit="10"
-                                        width="6"
-                                        height="4"
-                                        strokeLinejoin="round"
-                                    />
-                                </svg>
-                            </div>
-                            <div className="max-w-xl mb-6">
-                                <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
-                                    Let us handle
-                                    <br className="hidden md:block" />
-                                    your next{' '}
-                                    <span className="inline-block text-deep-purple-accent-400">
-                                        destination
-                                    </span>
-                                </h2>
-                                <p className="text-base text-gray-700 md:text-lg">
-                                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                                    accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-                                    quae. explicabo.
-                                </p>
-                            </div>
-                            <div>
-                                <a
-                                    href="/"
-                                    aria-label=""
-                                    className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
-                                >
-                                    Learn more
-                                    <svg
-                                        className="inline-block w-3 ml-2"
-                                        fill="currentColor"
-                                        viewBox="0 0 12 12"
-                                    >
-                                        <path d="M9.707,5.293l-5-5A1,1,0,0,0,3.293,1.707L7.586,6,3.293,10.293a1,1,0,1,0,1.414,1.414l5-5A1,1,0,0,0,9.707,5.293Z" />
-                                    </svg>
-                                </a>
-                            </div>
-                        </div>
-                        <div className="flex items-center justify-center -mx-4 lg:pl-8">
-                            <div className="flex flex-col items-end px-3">
-                                <img
-                                    className="object-cover mb-6 rounded shadow-lg h-28 sm:h-48 xl:h-56 w-28 sm:w-48 xl:w-56"
-                                    src="https://images.pexels.com/photos/3184287/pexels-photo-3184287.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
-                                    alt=""
-                                />
-                                <img
-                                    className="object-cover w-20 h-20 rounded shadow-lg sm:h-32 xl:h-40 sm:w-32 xl:w-40"
-                                    src="https://images.pexels.com/photos/3182812/pexels-photo-3182812.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
-                                    alt=""
-                                />
-                            </div>
-                            <div className="px-3">
-                                <img
-                                    className="object-cover w-40 h-40 rounded shadow-lg sm:h-64 xl:h-80 sm:w-64 xl:w-80"
-                                    src="https://images.pexels.com/photos/3182739/pexels-photo-3182739.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;w=500"
-                                    alt=""
-                                />
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </section>
             <section>
 
                 <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
@@ -237,12 +240,12 @@ const Home = () => {
                                 <p className="text-gray-700 text-base md:text-lg">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae. explicabo.</p>
                             </div>
                             <div className="flex items-center space-x-3">
-                                <a href="/" className="w-32 transition duration-300 hover:shadow-lg">
+                                <Link to="/" className="w-32 transition duration-300 hover:shadow-lg">
                                     <img src="https://kitwind.io/assets/kometa/app-store.png" className="object-cover object-top w-full h-auto mx-auto" alt="" />
-                                </a>
-                                <a href="/" className="w-32 transition duration-300 hover:shadow-lg">
+                                </Link>
+                                <Link to="/" className="w-32 transition duration-300 hover:shadow-lg">
                                     <img src="https://kitwind.io/assets/kometa/google-play.png" className="object-cover object-top w-full h-auto mx-auto" alt="" />
-                                </a>
+                                </Link>
                             </div>
                         </div>
                         <div className="flex items-center justify-center lg:w-1/2">
@@ -254,15 +257,15 @@ const Home = () => {
                             </div>
                         </div>
                     </div>
-                    <a
-                        href="/login"
+                    <Link
+                        to="/login"
                         aria-label="Scroll down"
                         className="flex items-center justify-center w-10 h-10 mx-auto text-gray-600 hover:text-deep-purple-accent-400 hover:border-deep-purple-accent-400 duration-300 transform border border-gray-400 rounded-full hover:shadow hover:scale-110"
                     >
                         <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12" fill="currentColor">
                             <path d="M10.293,3.293,6,7.586,1.707,3.293A1,1,0,0,0,.293,4.707l5,5a1,1,0,0,0,1.414,0l5-5a1,1,0,1,0-1.414-1.414Z" />
                         </svg>
-                    </a>
+                    </Link>
                 </div>
 
             </section>
