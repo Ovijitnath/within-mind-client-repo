@@ -15,7 +15,7 @@ const Footer = () => {
                             className="inline-flex items-center"
                         >
                             <img src={logo} style={{ width: 35, height: 35 }} alt="" />
-                            <span className="ml-2 text-xl font-bold tracking-wide text-gray-800 uppercase">
+                            <span className="ml-2 text-xl font-bold tracking-wide text-gray-800">
                                 Within Mind
                             </span>
                         </Link>
