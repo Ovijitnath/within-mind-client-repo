@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import HomeService from '../../HomeService/HomeService';
+import HomeServices from '../../HomeService/HomeServices';
 
 
 const Home = () => {
@@ -112,7 +112,7 @@ const Home = () => {
 
             </section>
 
-            <HomeService></HomeService>
+            <HomeServices></HomeServices>
 
             <section className="dark:bg-gray-800 dark:text-gray-100">
                 <div className="container max-w-xl p-6 py-12 mx-auto space-y-24 lg:px-8 lg:max-w-7xl">
