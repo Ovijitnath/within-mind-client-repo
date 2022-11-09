@@ -2,157 +2,55 @@
     {
         "_id": "635a0c0b64a6d231228942ae",
         "service_id": "04",
-        "title": "Engine Oil Change",
-        "img": "https://i.ibb.co/T2cpBd5/888.jpg",
+        "title": "Career, Work, Business",
+        "img": "https://d1whtlypfis84e.cloudfront.net/guides/wp-content/uploads/2019/08/23101050/carrer.jpg",
         "price": "20.00",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius veniam nostrum dolores nemo quas. Minima ullam, veniam, nesciunt quae dolore animi blanditiis deserunt, ea esse dolorum ipsum quibusdam ipsa! Corrupti at, excepturi, fugiat aut nihil neque aliquid sapiente dignissimos provident, animi molestiae ipsum. Repudiandae ipsa id nihil reiciendis soluta eos ducimus pariatur, nam architecto tenetur quo quos commodi est libero repellendus vitae. Fuga numquam nulla nam, facere neque expedita voluptatibus pariatur necessitatibus vel, dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum. Aspernatur ex quibusdam at cum nulla!",
-        "facility": [
-            {
-                "name": "Instant Car Services",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
-            },
-            {
-                "name": "24/7 Quality Service",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
-            },
-            {
-                "name": "Easy Customer Service",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
-            },
-            {
-                "name": "Quality Cost Service",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
-            }
-        ]
+        "description": "Think about the last time felt generally unmotivated. What brought you out of that feeling? Sometimes all it takes is a good night's sleep or seeing the fruits of your labor to fire you up. Still other times, you might listen to someone say something that resonates with you -- that alters the way you've been looking at a particular task or problem.To help you stay motivated, no matter what your job throws at you, we decided to compile 24 of the best motivational speeches from business, sports, entertainment, and more. If you want to get fired up for a project, watch these videos.",
+        "rating": "4.9"
     },
     {
         "_id": "635a0c0b64a6d231228942af",
         "service_id": "05",
-        "title": "Battery Charge",
-        "img": "https://i.ibb.co/ydCbDN3/5555.jpg",
+        "title": "Mental and Physical Care",
+        "img": "https://www.masala.com/public/images/2020/01/02/exercise.jpg",
         "price": "20.00",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius veniam nostrum dolores nemo quas. Minima ullam, veniam, nesciunt quae dolore animi blanditiis deserunt, ea esse dolorum ipsum quibusdam ipsa! Corrupti at, excepturi, fugiat aut nihil neque aliquid sapiente dignissimos provident, animi molestiae ipsum. Repudiandae ipsa id nihil reiciendis soluta eos ducimus pariatur, nam architecto tenetur quo quos commodi est libero repellendus vitae. Fuga numquam nulla nam, facere neque expedita voluptatibus pariatur necessitatibus vel, dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum. Aspernatur ex quibusdam at cum nulla!",
-        "facility": [
-            {
-                "name": "Instant Car Services",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
-            },
-            {
-                "name": "24/7 Quality Service",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
-            },
-            {
-                "name": "Easy Customer Service",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
-            },
-            {
-                "name": "Quality Cost Service",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
-            }
-        ]
+        "description": "Participation in regular physical activity is a well-established strategy to support good mental wellbeing in adults with, and without, mental health conditions. The physical activity initiative parkrun is a free, weekly, timed, running and walking event which is attended by people from the local community of all abilities. The purpose of this study was to investigate the mental wellbeing of UK parkrun participants along with their motives for taking part and the impact of participation. Mental health conditions were self-reported in 2.5% of 60,000 respondents to an online survey of parkrunners, with the most prevalent being depression and anxiety. Those with mental health conditions were more motivated than those without to first participate in parkrun to manage their health conditions and improve their mental health. Those with mental health conditions were equally motivated to improve their physical health when compared to those without, and reported similar levels of improvement. Mental wellbeing scores for those with mental health conditions were close to the normal range, suggesting that engagement in parkrun may have had a role in limiting the effect of their illness. Community initiatives could replicate parkrun’s model, and use the potential for both mental and physical health improvement, as well as health condition management, as a motivation for participation.",
+        "rating": "4.8"
     },
     {
         "_id": "635b591a1dafe382a9da8c96",
         "service_id": "01",
-        "title": "Full car Repair",
-        "img": "https://i.ibb.co/R6Z2nFM/55.jpg",
+        "title": "Personal Growth",
+        "img": "https://bigthink.com/wp-content/uploads/2019/07/learn-achieve-personal-growth.jpg",
         "price": "200.00",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius veniam nostrum dolores nemo quas. Minima ullam, veniam, nesciunt quae dolore animi blanditiis deserunt, ea esse dolorum ipsum quibusdam ipsa! Corrupti at, excepturi, fugiat aut nihil neque aliquid sapiente dignissimos provident, animi molestiae ipsum. Repudiandae ipsa id nihil reiciendis soluta eos ducimus pariatur, nam architecto tenetur quo quos commodi est libero repellendus vitae. Fuga numquam nulla nam, facere neque expedita voluptatibus pariatur necessitatibus vel, dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum. Aspernatur ex quibusdam at cum nulla!",
-        "facility": [
-            {
-                "name": "Instant Car Services",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
-            },
-            {
-                "name": "24/7 Quality Service",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
-            },
-            {
-                "name": "Easy Customer Service",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
-            },
-            {
-                "name": "Quality Cost Service",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
-            }
-        ]
+        "description": "Personal growth can help you in all areas of your life. It can help you at work. It can change your attitude toward work, and therefore, open new opportunities for advancement. Personal growth can help in growing emotionally and mentally and becoming a more considerate, loving and positive person. It can also help you see your mistakes and negative habits, and lead you to correcting and changing them. There are many techniques for personal growth, such as creative visualization, repeating affirmations, developing a positive mindset and meditation. Personal growth also involves counseling, coaching and reading. A very simple and useful method for personal growth is to look at your behavior and your life with an open and unbiased mind. This will show you what changes you need to make in yourself and in your life.",
+        "rating": "4.9"
     },
     {
         "_id": "635b5afc1dafe382a9da8c98",
         "service_id": "02",
-        "title": "Engine Repair",
-        "img": "https://i.ibb.co/5MvmD2g/88.jpg",
+        "title": "People and Relationships",
+        "img": "https://www.heysigmund.com/wp-content/uploads/17-Things-People-Who-Are-Great-At-Relationships-Do-Differently-TITLE.jpg",
         "price": "150.00",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius veniam nostrum dolores nemo quas. Minima ullam, veniam, nesciunt quae dolore animi blanditiis deserunt, ea esse dolorum ipsum quibusdam ipsa! Corrupti at, excepturi, fugiat aut nihil neque aliquid sapiente dignissimos provident, animi molestiae ipsum. Repudiandae ipsa id nihil reiciendis soluta eos ducimus pariatur, nam architecto tenetur quo quos commodi est libero repellendus vitae. Fuga numquam nulla nam, facere neque expedita voluptatibus pariatur necessitatibus vel, dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum. Aspernatur ex quibusdam at cum nulla!",
-        "facility": [
-            {
-                "name": "Instant Car Services",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
-            },
-            {
-                "name": "24/7 Quality Service",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
-            },
-            {
-                "name": "Easy Customer Service",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
-            },
-            {
-                "name": "Quality Cost Service",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
-            }
-        ]
+        "description": "Based on theoretical tenets in motivation psychology, personality psychology, and research on interpersonal perception, the MIC model postulates that two partners' motive dispositions fundamentally interact in shaping their individual motivation and behavior. On a functional level, a partner's motivated behavior is conceptualized as an environmental cue that can contribute to an actor's motive expression and satisfaction. However, the partner's motivated behavior is considered to gain this motivational relevance only via the actor's subjective perception. Multilevel analyses of an extensive experience sampling study on partner-related communal motivation (N = up to 60,803 surveys from 508 individuals nested in 258 couples) supported the MIC model. Participants, particularly those with strong communal motive dispositions, behaved more communally at moments when they perceived their partners to behave more communally. In addition, participants experienced momentary boosts in satisfaction when they behaved more communally and, at the same time, perceived their partners' behavior as similarly communal. Broader implications of the MIC model for research on romantic relationships are discussed.",
+        "rating": "4.9"
     },
     {
         "_id": "635b5b691dafe382a9da8c99",
         "service_id": "03",
-        "title": "Automatic Services",
-        "img": "https://i.ibb.co/wh7t3N3/555.jpg",
+        "title": "Relationship With children",
+        "img": "https://www.familyservicesnew.org/wp-content/uploads/2019/10/shutterstock_1486364633-small-1024x683.jpg",
         "price": "30.00",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius veniam nostrum dolores nemo quas. Minima ullam, veniam, nesciunt quae dolore animi blanditiis deserunt, ea esse dolorum ipsum quibusdam ipsa! Corrupti at, excepturi, fugiat aut nihil neque aliquid sapiente dignissimos provident, animi molestiae ipsum. Repudiandae ipsa id nihil reiciendis soluta eos ducimus pariatur, nam architecto tenetur quo quos commodi est libero repellendus vitae. Fuga numquam nulla nam, facere neque expedita voluptatibus pariatur necessitatibus vel, dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum. Aspernatur ex quibusdam at cum nulla!",
-        "facility": [
-            {
-                "name": "Instant Car Services",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
-            },
-            {
-                "name": "24/7 Quality Service",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
-            },
-            {
-                "name": "Easy Customer Service",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
-            },
-            {
-                "name": "Quality Cost Service",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
-            }
-        ]
+        "description": "Previous studies have indicated that parent–child relationship as well as learning motivation and academic self-efficacy is an influential factor of learning engagement, but the impact mechanism of the relevant factors needs to be explored. The purpose of the current study is to investigate how parent–child relationship is related to learning engagement via the mediating roles of learning motivation and academic self-efficacy. Structural equation modeling (SEM) was adopted for the analysis of 280 participants from China. Results showed that parent–child relationship was directly correlated with adolescents’ learning engagement. Results also showed that parent–child relationship indirectly predicted adolescents’ learning engagement via learning motivation and academic self-efficacy respectively and sequentially. More importantly, it was revealed that the direct effect was much lower than the total indirect effects which include the indirect effect of learning motivation, the indirect effect of academic self-efficacy, and the indirect effect of learning motivation and academic self-efficacy. Among the three indirect effects, the indirect effect of learning motivation and academic self-efficacy was the greatest. Major findings were discussed with implications and limitations in the study.",
+        "rating": "4.9"
     },
     {
         "_id": "635b5ba51dafe382a9da8c9a",
         "service_id": "06",
-        "title": "Electrical System",
-        "img": "https://i.ibb.co/KzCG8qr/8888.jpg",
+        "title": "Seeking Discomfort",
+        "img": "https://cdn.shopify.com/s/files/1/2580/8892/files/Thomas_Ammar2-3_5f3f1715-75ee-49cb-95dd-465b0eabe152.jpg?v=1632502656",
         "price": "20.00",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius veniam nostrum dolores nemo quas. Minima ullam, veniam, nesciunt quae dolore animi blanditiis deserunt, ea esse dolorum ipsum quibusdam ipsa! Corrupti at, excepturi, fugiat aut nihil neque aliquid sapiente dignissimos provident, animi molestiae ipsum. Repudiandae ipsa id nihil reiciendis soluta eos ducimus pariatur, nam architecto tenetur quo quos commodi est libero repellendus vitae. Fuga numquam nulla nam, facere neque expedita voluptatibus pariatur necessitatibus vel, dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum. Aspernatur ex quibusdam at cum nulla!",
-        "facility": [
-            {
-                "name": "Instant Car Services",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
-            },
-            {
-                "name": "24/7 Quality Service",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
-            },
-            {
-                "name": "Easy Customer Service",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
-            },
-            {
-                "name": "Quality Cost Service",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
-            }
-        ]
+        "description": "Achieving personal growth often requires experiencing discomfort. What if instead of tolerating discomfort (e.g., feeling awkward or uncomfortable), people actively sought it out? Because discomfort is usually experienced immediately and is easy to detect, we suggest that seeking discomfort as a signal of growth can increase motivation. Five experiments (total N = 2,163 adults) tested this prediction across various areas of personal growth: taking improvisation classes to increase self-confidence, engaging in expressive writing to process difficult emotions, becoming informed about the COVID-19 health crisis, opening oneself to opposing political viewpoints, and learning about gun violence. Across these areas of personal development, seeking discomfort as a signal of self-growth motivated engagement and increased perceived goal achievement relative to standard instructions. Consistent with our theorizing, results showed that these effects occurred only in areas of personal growth that cause immediate discomfort.",
+        "rating": "4.9"
     }
 ]

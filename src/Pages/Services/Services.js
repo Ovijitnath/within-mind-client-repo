@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import Service from './Service';
 
 const Services = () => {
-    const [services, setServices] = useState({});
+    const [services, setServices] = useState([]);
     useEffect(() => {
         fetch('services.json')
             .then(res => res.json())
@@ -18,18 +18,18 @@ const Services = () => {
 
             </div>
 
-            <div className='grid  grid-cols-1 md:grid-cols-2 lg:grid-cols-3'>
-                <h2>Total services: {services.length}</h2>
+            <div className='grid  grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mx-11 py-10 px-10'>
 
-                {/* {
-                    services?.map(service =>
+
+                {
+                    services.map(service =>
 
                         <Service
                             key={service._id}
                             service={service}
                         ></Service>)
 
-                } */}
+                }
             </div>
 
         </div>
