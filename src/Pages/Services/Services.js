@@ -13,7 +13,7 @@ const Services = () => {
         <div>
 
             <div className='text-center'>
-                <h2 className='text-6xl font-semibold'> I Can Help You In Different Situations</h2>
+                <h2 className='text-5xl font-semibold'> I Can Help You In Different Situations</h2>
                 <p >FOLLOWING SERVICES</p>
 
             </div>
