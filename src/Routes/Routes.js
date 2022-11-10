@@ -10,6 +10,7 @@ import Registration from '../Pages/Registration/Registration';
 import Contact from '../Pages/Contact/Contact';
 import Details from '../Pages/Details/Details';
 import Review from '../Pages/Review/Review';
+import PrivateRoute from './PrivateRoute';
 
 export const routes = createBrowserRouter([
     {
@@ -52,7 +53,7 @@ export const routes = createBrowserRouter([
             },
             {
                 path: '/review',
-                element: <Review></Review>,
+                element: <PrivateRoute><Review></Review></PrivateRoute>,
 
             }
 

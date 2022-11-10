@@ -56,7 +56,16 @@ const Review = () => {
 
     return (
         <div>
-            <h1>You have {reviews.length}s</h1>
+            <div>
+                {
+                    reviews.length > 0 ?
+
+                        <h1 className='text-rose-500 text-center '>You have {reviews.length} review!!</h1>
+                        :
+                        <h1 className='text-rose-500 text-center '>No Reviews Found!!</h1>
+                }
+
+            </div>
             <div className="overflow-x-auto w-full">
                 <table className="table w-full">
                     <thead>
