@@ -1,6 +1,9 @@
 import React from 'react';
+import useTitle from '../../Hook/useTitle';
 
 const AddService = () => {
+    useTitle('AddService')
+
     return (
         <div>
             <section className="p-6 bg-cyan-100 dark:text-gray-50">

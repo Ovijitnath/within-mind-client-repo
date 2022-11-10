@@ -1,10 +1,11 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
+import useTitle from '../Hook/useTitle';
 import HomeService from './HomeService';
 ;
 
 const HomeServices = () => {
-
+    useTitle("HomeServices")
     const [services, setServices] = useState([]);
     useEffect(() => {
         fetch('services.json')
@@ -27,7 +28,7 @@ const HomeServices = () => {
                     services.slice(0, 3).map(service =>
 
                         <HomeService
-                            key={service._id}
+                            key={services._id}
                             service={service}
                         ></HomeService>)
 

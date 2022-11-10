@@ -1,6 +1,8 @@
 import React from 'react';
+import useTitle from '../Hook/useTitle';
 
 const HomeService = ({ service }) => {
+    useTitle("HomeService")
     const { img, price, title, description } = service;
     return (
 
