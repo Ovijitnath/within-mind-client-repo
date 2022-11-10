@@ -41,6 +41,9 @@ const Header = () => {
                                                     <Link className="text-gray-500  hover:text-indigo-800 dark:hover:text-white px-3 py-2 rounded-md text-sm font-medium" to="/review">
                                                         Review
                                                     </Link>
+                                                    <Link className="text-gray-500  hover:text-indigo-800 dark:hover:text-white px-3 py-2 rounded-md text-sm font-medium" to="/addservice">
+                                                        Add Service
+                                                    </Link>
                                                     <button onClick={handleLogOut} className='btn-ghost'>Sign Out</button>
                                                 </>
                                                 :
@@ -84,6 +87,9 @@ const Header = () => {
                                     <>
                                         <Link className="text-gray-500  hover:text-indigo-800 dark:hover:text-white px-3 py-2 rounded-md text-sm font-medium" to="/review">
                                             Review
+                                        </Link>
+                                        <Link className="text-gray-500  hover:text-indigo-800 dark:hover:text-white px-3 py-2 rounded-md text-sm font-medium" to="/addservice">
+                                            Add Service
                                         </Link>
                                         <button onClick={handleLogOut} className='btn-ghost'>Sign Out</button>
                                     </>

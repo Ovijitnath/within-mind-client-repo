@@ -86,16 +86,16 @@ const Details = () => {
                 </Link>
             </form>
 
-            <section className="py-6 sm:py-12 dark:bg-gray-800 dark:text-gray-100">
+            <section className="py-6 sm:py-12 bg-gray-200 dark:text-gray-100">
                 <div className="container p-6 mx-auto space-y-8">
                     <div className="space-y-2 text-center">
-                        <h2 className="text-3xl font-bold">Partem reprimique an pro</h2>
-                        <p className="font-serif text-sm dark:text-gray-400">Qualisque erroribus usu at, duo te agam soluta mucius.</p>
+                        <h2 className="text-3xl font-bold">Reviews of Patients</h2>
+                        <p className="font-serif text-sm text-gray-400">Here are some review of mine regular or practised patients.</p>
                     </div>
                     <div className="grid grid-cols-1 gap-x-4 gap-y-8 md:grid-cols-2 lg:grid-cols-4">
                         <article className="flex flex-col dark:bg-gray-900">
                             <Link rel="noopener noreferrer" href="#" aria-label="Te nulla oportere reprimique his dolorum">
-                                <img alt="" className="object-cover w-full h-52 dark:bg-gray-500" src="https://source.unsplash.com/200x200/?fashion?1" />
+                                <img alt="" className="object-cover w-full h-52 dark:bg-gray-500" src="https://assets.entrepreneur.com/content/3x2/2000/20150224165308-jeff-bezos-amazon.jpeg?crop=4:3" />
                             </Link>
                             <div className="flex flex-col flex-1 p-6">
                                 <Link rel="noopener noreferrer" href="#" aria-label="Te nulla oportere reprimique his dolorum"></Link>
@@ -109,7 +109,7 @@ const Details = () => {
                         </article>
                         <article className="flex flex-col dark:bg-gray-900">
                             <Link rel="noopener noreferrer" href="#" aria-label="Te nulla oportere reprimique his dolorum">
-                                <img alt="" className="object-cover w-full h-52 dark:bg-gray-500" src="https://source.unsplash.com/200x200/?fashion?2" />
+                                <img alt="" className="object-cover w-full h-52 dark:bg-gray-500" src="https://image.cnbcfm.com/api/v1/image/107063491-16529089492022-05-18t210710z_1773411046_rc2w9u9z7ee9_rtrmadp_0_tesla-musk.jpeg?v=1668023539" />
                             </Link>
                             <div className="flex flex-col flex-1 p-6">
                                 <Link rel="noopener noreferrer" href="#" aria-label="Te nulla oportere reprimique his dolorum"></Link>
@@ -123,7 +123,7 @@ const Details = () => {
                         </article>
                         <article className="flex flex-col dark:bg-gray-900">
                             <Link rel="noopener noreferrer" href="#" aria-label="Te nulla oportere reprimique his dolorum">
-                                <img alt="" className="object-cover w-full h-52 dark:bg-gray-500" src="https://source.unsplash.com/200x200/?fashion?3" />
+                                <img alt="" className="object-cover w-full h-52 dark:bg-gray-500" src="https://live-production.wcms.abc-cdn.net.au/6cd682692a1673e7ab9e5ce635f3cb73?impolicy=wcms_crop_resize&cropH=2727&cropW=4848&xPos=0&yPos=0&width=862&height=485" />
                             </Link>
                             <div className="flex flex-col flex-1 p-6">
                                 <Link rel="noopener noreferrer" href="#" aria-label="Te nulla oportere reprimique his dolorum"></Link>
@@ -137,7 +137,7 @@ const Details = () => {
                         </article>
                         <article className="flex flex-col dark:bg-gray-900">
                             <Link rel="noopener noreferrer" href="#" aria-label="Te nulla oportere reprimique his dolorum">
-                                <img alt="" className="object-cover w-full h-52 dark:bg-gray-500" src="https://source.unsplash.com/200x200/?fashion?4" />
+                                <img alt="" className="object-cover w-full h-52 dark:bg-gray-500" src="https://media.vanityfair.com/photos/5fea29588465e5433d911a57/master/w_2560%2Cc_limit/173720550" />
                             </Link>
                             <div className="flex flex-col flex-1 p-6">
                                 <Link rel="noopener noreferrer" href="#" aria-label="Te nulla oportere reprimique his dolorum"></Link>
