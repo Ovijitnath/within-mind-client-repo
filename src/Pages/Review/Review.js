@@ -57,23 +57,17 @@ const Review = () => {
     return (
         <div>
             <div>
-                {
-                    reviews.length > 0 ?
-
-                        <h1 className='text-rose-500 text-center '>You have {reviews.length} review!!</h1>
-                        :
-                        <h1 className='text-rose-500 text-center '>No Reviews Found!!</h1>
-                }
+                <h1 className='text-rose-500 text-center text-3xl'>You have {reviews.length} review!!</h1>
 
             </div>
             <div className="overflow-x-auto w-full">
-                <table className="table w-full">
+                <table className="table w-full bg-zinc-500">
                     <thead>
                         <tr>
                             <th>
                             </th>
                             <th>Name</th>
-                            <th>Job</th>
+                            <th>Chosen Service</th>
                             <th>Favorite Color</th>
                             <th></th>
                         </tr>

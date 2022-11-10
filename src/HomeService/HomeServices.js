@@ -28,7 +28,7 @@ const HomeServices = () => {
                     services.slice(0, 3).map(service =>
 
                         <HomeService
-                            key={services._id}
+                            key={service._id}
                             service={service}
                         ></HomeService>)
 

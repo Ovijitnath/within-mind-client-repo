@@ -24,8 +24,11 @@ const Registration = () => {
                 form.reset();
                 console.log(user);
             })
-            .catch(err => console.error(err));
-        setError(error.message);
+            .catch(error => {
+
+                console.error(error)
+                setError(error.message);
+            })
     }
 
     return (
@@ -49,9 +52,12 @@ const Registration = () => {
                             </div>
                             <div className="form-control">
                                 <label className="label">
+
+
                                     <span className="label-text">Password</span>
                                 </label>
                                 <input name="password" type="password" placeholder="password" className="input input-bordered" required />
+                                <p className='text-rose-300'>Hint: Password must be six digit!</p>
 
                             </div>
                             <div className="form-control mt-6">

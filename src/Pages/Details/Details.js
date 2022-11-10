@@ -25,12 +25,7 @@ const Details = () => {
             phone,
             message
         }
-        // if(phone.length > 10){
-        //     alert('Phone number should be 10 characters or longer')
-        // }
-        // else{
 
-        // }
 
         fetch('http://localhost:5000/reviews', {
             method: 'POST',
@@ -58,7 +53,7 @@ const Details = () => {
             <h1 className="text-5xl font-bold text-center text-gray-500 pt-3 pb-3 bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 ...">{title}!</h1>
             <div className="min-h-screen mx-15 p-1">
                 <div className="flex-col lg:flex-row-reverse  bg-cyan-100 shadow-md">
-                    <img src={img} className="max-w-sm rounded-lg shadow-2xl mx-auto" />
+                    <img src={img} alt="" className="max-w-sm rounded-lg shadow-2xl mx-auto" />
                     <div className='px-10'>
                         <h1 className="text-3xl font-bold text-center p-3">{title} is very much needed!</h1>
                         <p className="py-6">{description}</p>
@@ -83,9 +78,9 @@ const Details = () => {
                 </div>
                 <textarea name="message" className="textarea textarea-bordered h-24 w-full p-5" placeholder="Your Message" required></textarea>
 
-                <Link to="/review">
-                    <input className='btn' type="submit" value="Place Your Review" />
-                </Link>
+
+                <input className='btn' type="submit" value="Place Your Review" />
+
             </form>
 
             <section className="py-6 sm:py-12 bg-gray-200 dark:text-gray-100">
