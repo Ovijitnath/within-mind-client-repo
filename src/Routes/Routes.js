@@ -9,6 +9,7 @@ import Login from '../Pages/Login/Login';
 import Registration from '../Pages/Registration/Registration';
 import Contact from '../Pages/Contact/Contact';
 import Details from '../Pages/Details/Details';
+import Review from '../Pages/Review/Review';
 
 export const routes = createBrowserRouter([
     {
@@ -49,6 +50,11 @@ export const routes = createBrowserRouter([
                 element: <Details></Details>,
                 loader: ({ params }) => fetch(`http://localhost:5000/services/${params.id}`)
             },
+            {
+                path: '/review',
+                element: <Review></Review>,
+
+            }
 
 
 

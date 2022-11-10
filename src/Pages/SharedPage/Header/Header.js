@@ -1,8 +1,10 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { Link } from 'react-router-dom';
+import { AuthContext } from '../../../Context/AuthProvider/AuthProvider';
 import logo from '../../../favicon.png'
 
 const Header = () => {
+    const { user } = useContext(AuthContext);
     return (
         <div>
 
@@ -26,9 +28,18 @@ const Header = () => {
                                         <Link className="text-gray-500  hover:text-indigo-800 dark:hover:text-white px-3 py-2 rounded-md text-sm font-medium" to="/contact">
                                             Contact
                                         </Link>
-                                        <Link className="text-gray-500  hover:text-indigo-800 dark:hover:text-white px-3 py-2 rounded-md text-sm font-medium" to="/login">
-                                            Login
-                                        </Link>
+                                        {
+                                            user?.email ?
+                                                <>
+                                                    <Link className="text-gray-500  hover:text-indigo-800 dark:hover:text-white px-3 py-2 rounded-md text-sm font-medium" to="/review">
+                                                        Review
+                                                    </Link>
+                                                </>
+                                                :
+                                                <Link className="text-gray-500  hover:text-indigo-800 dark:hover:text-white px-3 py-2 rounded-md text-sm font-medium" to="/login">
+                                                    Login
+                                                </Link>
+                                        }
                                     </div>
                                 </div>
                             </div>
@@ -60,9 +71,18 @@ const Header = () => {
                             <Link className="text-gray-500 hover:text-indigo-800 dark:hover:text-white block px-3 py-2 rounded-md text-base font-medium" to="/contact">
                                 Contact
                             </Link>
-                            <Link className="text-gray-500 hover:text-indigo-800 dark:hover:text-white block px-3 py-2 rounded-md text-base font-medium" to="/login">
-                                Login
-                            </Link>
+                            {
+                                user?.email ?
+                                    <>
+                                        <Link className="text-gray-500  hover:text-indigo-800 dark:hover:text-white px-3 py-2 rounded-md text-sm font-medium" to="/review">
+                                            Review
+                                        </Link>
+                                    </>
+                                    :
+                                    <Link className="text-gray-500  hover:text-indigo-800 dark:hover:text-white px-3 py-2 rounded-md text-sm font-medium" to="/login">
+                                        Login
+                                    </Link>
+                            }
                         </div>
                     </div>
                 </nav>
