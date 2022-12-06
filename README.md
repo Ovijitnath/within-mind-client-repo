@@ -1,3 +1,31 @@
+Live Website Link- https://within-mind.web.app
+
+Website Name - Within Mind
+
+Its it created with mainly:- 1.React JS. 2. Tailwind Css. 3.Daisy Ui 4.Firebase 5.Vercel etc.
+
+Main Features--
+
+1.There is a home page about the site and the services of a physsiatrist. 2.Services page all about selecting a service you want to choose.
+
+3.More detail option is created to full details about the page.If you want to add a review you have to log in or register.Then Fill up the form and give feedback.
+
+4.If you are a looged user, click my review in the navbar and see what's in there.Logged user can also update or delete the review. Add service will update a service if one need to add new service
+
+5.It is Authenticated with Firebase. User can log in with email,password, google sign in, basically.
+
+6.Footer is there to have clear idea about the authority.
+
+About page is about answering the asked question.
+
+Contact page is givent to contact with the admin.
+
+Responsive SPA site etc...
+
+
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
