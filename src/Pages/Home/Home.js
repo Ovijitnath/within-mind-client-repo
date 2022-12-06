@@ -101,6 +101,7 @@ const Home = () => {
 
             </section>
 
+            {/* Home Services component  */}
             <HomeServices></HomeServices>
 
             <section className="dark:bg-gray-800 dark:text-gray-100">
