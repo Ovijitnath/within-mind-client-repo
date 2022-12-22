@@ -2,7 +2,7 @@ import React from 'react';
 import useTitle from '../Hook/useTitle';
 
 const HomeService = ({ service }) => {
-    useTitle("HomeService")
+    useTitle("Home")
     const { img, price, title, description } = service;
     return (
 
@@ -13,12 +13,9 @@ const HomeService = ({ service }) => {
                 <h4>$  {price}</h4>
                 <p>{description.slice(0, 200) + `...`}</p>
                 <div className="card-actions justify-end">
-
                 </div>
             </div>
         </div>
-
-
     );
 };
 

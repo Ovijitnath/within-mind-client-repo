@@ -18,12 +18,8 @@ const HomeServices = () => {
             <div className='text-center'>
                 <h2 className='text-4xl font-bold'> I Can Help You In Different Situations</h2>
 
-
             </div>
-
-            <div className='grid  grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 px-10 py-10'>
-
-
+            <div className='grid  grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 lg:px-20  p-3 py-10'>
                 {
                     services.slice(0, 3).map(service =>
 
@@ -31,7 +27,6 @@ const HomeServices = () => {
                             key={service._id}
                             service={service}
                         ></HomeService>)
-
                 }
             </div>
             <div className='text-center'>

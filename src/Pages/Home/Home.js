@@ -102,7 +102,9 @@ const Home = () => {
             </section>
 
             {/* Home Services component  */}
-            <HomeServices></HomeServices>
+            <section>
+                <HomeServices></HomeServices>
+            </section>
 
             <section className="dark:bg-gray-800 dark:text-gray-100">
                 <div className="container max-w-xl p-6 py-12 mx-auto space-y-24 lg:px-8 lg:max-w-7xl">
