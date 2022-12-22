@@ -16,13 +16,9 @@ const Services = () => {
 
             <div className='text-center p-3'>
                 <h2 className='text-5xl font-semibold py-3'> I Can Help You In Different Situations</h2>
-
-
             </div>
 
-            <div className='grid  grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mx-11 py-10 px-10'>
-
-
+            <div className='grid  grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mx-11 py-10 px-2'>
                 {
                     services.map(service =>
 
@@ -33,7 +29,6 @@ const Services = () => {
 
                 }
             </div>
-
         </div>
     );
 };
